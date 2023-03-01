@@ -13,6 +13,7 @@
   --color-secondary-300: #bc4639;
 
   --color-light-100: #fff;
+  --color-light-200: #999;
 }
 *,
 *::after,
@@ -22,6 +23,9 @@
 
 body {
   font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .container {

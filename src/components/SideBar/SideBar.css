@@ -5,6 +5,8 @@
   align-items: center;
   height: 100vh;
   background-color: var(--color-primary);
+  width: 235px;
+  flex-shrink: 0;
 }
 
 .sidebar__link {
