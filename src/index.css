@@ -14,6 +14,8 @@
 
   --color-light-100: #fff;
   --color-light-200: #999;
+
+  --color-accent: #006c70;
 }
 *,
 *::after,
@@ -23,6 +25,7 @@
 
 body {
   font-family: var(--font-family);
+  color: var(--text-color-main);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;

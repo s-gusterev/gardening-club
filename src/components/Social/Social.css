@@ -1,6 +1,8 @@
 .social {
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 594px;
 }
 
 .social_link {
